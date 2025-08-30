@@ -3,7 +3,7 @@ import Botao from "@/components/Botao";
 import Titulo from "@/components/Titulo";
 import { useLocation } from "react-router-dom";
 
-const Quantidade = ({ itemCarrinho, adicionarProduto }) => {
+const Quantidade = ({ itemCarrinho, adicionarProduto, removerProduto }) => {
   const location = useLocation();
 
   return (
